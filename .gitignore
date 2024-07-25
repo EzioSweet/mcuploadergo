@@ -2,3 +2,9 @@ go.sum
 .fleet
 .idea
 .vscode
+/mods
+/config
+/shader
+*.exe
+*.zip
+*.7z
