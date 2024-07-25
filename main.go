@@ -48,7 +48,7 @@ func getRemoteConfig(url string){
             if err != nil {
                 panic(err) 
             }
-			resp,err = fetch.Download((*modrinth)[0].Files[0].Url,"./model/"+(*modrinth)[0].Files[0].FileName)
+			resp,err = fetch.Download((*modrinth)[0].Files[0].Url,"./mods/"+(*modrinth)[0].Files[0].FileName)
 			if err != nil {
 				
 			}
